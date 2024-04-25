@@ -2694,12 +2694,17 @@ input[type="radio"]:focus + label:before {
 }
 
 .image img {
-  display: block;
-  border-radius: 45px;
   width: 5px;
+  display: flex;
+  border-radius: 25%;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  margin: 1rem 0; /* Adjust margin as needed */
+  max-height: 650px; /* Set a maximum height for the container */
+  overflow: hidden; /* H */
 }
 
-.image.left,
+/* .image.left,
 .image.right {
   max-width: 5px;
 }
@@ -2733,12 +2738,16 @@ input[type="radio"]:focus + label:before {
 
 .image.fit img {
   width: 100%;
-}
+} */
 
 .image.main {
-  display: block;
+  /* display: block;
   margin: 4rem 0;
-  width: 100%;
+  width: 100%; */
+
+  border-radius: 25%;
+  max-height: 650px; /* Set a maximum height for the container */
+  overflow: hidden;
 }
 
 .image.main:first-child {
