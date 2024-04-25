@@ -2704,47 +2704,7 @@ input[type="radio"]:focus + label:before {
   overflow: hidden; /* H */
 }
 
-/* .image.left,
-.image.right {
-  max-width: 5px;
-}
-
-.image.left img,
-.image.right img {
-  width: 5px;
-}
-
-.image.left {
-  float: left;
-  margin: 0 2rem 2rem 0;
-  top: 0.75rem;
-}
-
-.image.right {
-  float: right;
-  margin: 0 0 2rem 2rem;
-  top: 0.75rem;
-}
-
-.image.fit {
-  display: block;
-  margin: 2.5rem 0;
-  width: 100%;
-}
-
-.image.fit:first-child {
-  margin-top: 0;
-}
-
-.image.fit img {
-  width: 100%;
-} */
-
 .image.main {
-  /* display: block;
-  margin: 4rem 0;
-  width: 100%; */
-
   border-radius: 25%;
   max-height: 650px; /* Set a maximum height for the container */
   overflow: hidden;
