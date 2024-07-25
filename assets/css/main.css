@@ -2696,7 +2696,7 @@ input[type="radio"]:focus + label:before {
 .image img {
   width: 5px;
   display: flex;
-  border-radius: 25%;
+  /* border-radius: 5%; */
   justify-content: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
   margin: 1rem 0; /* Adjust margin as needed */
@@ -2705,8 +2705,8 @@ input[type="radio"]:focus + label:before {
 }
 
 .image.main {
-  border-radius: 25%;
-  max-height: 650px; /* Set a maximum height for the container */
+  border-radius: 20%;
+  max-height: 500px; /* Set a maximum height for the container */
   overflow: hidden;
 }
 
@@ -3953,7 +3953,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #main > .posts > * {
-  width: 50%;
+  width: 0%;
 }
 
 #main > .posts > * {
